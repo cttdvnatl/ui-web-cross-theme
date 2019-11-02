@@ -38,7 +38,7 @@ const Header =
                 <nav class="classy-navbar justify-content-between" id="croseNav">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/core-img/gxlogo.png" alt=""></a>
+                    <a href="/" class="nav-brand"><img src="img/core-img/gxlogo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -57,9 +57,9 @@ const Header =
                         <div class="classynav">
                                 <ul>
                                     <!--li><a href="index.html">TRANG CHÙ</a></li-->
-                                    <li><a href="#">GIÁO XỨ</a>
+                                    <li><a href="GiaoXu">GIÁO XỨ</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Trang Chủ</a></li>
+                                            <li><a href="/">Trang Chủ</a></li>
                                             <li><a href="SuMenhGX.html">Sứ Mệnh Giáo Xứ</a></li>
                                             <li><a href="LichSuGX.html">Lịch Sử Giáo Xứ</a></li>
                                             <li><a href="LichPhungVu.html">Lịch Phụng Vụ</a></li>
@@ -67,7 +67,7 @@ const Header =
                                             <li><a href="QuyChuc.html">Qúy Chứ</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">TIN TỨC/SỰ KIỆN</a>
+                                    <li><a href="TinTuc">TIN TỨC/SỰ KIỆN</a>
                                         <ul class="dropdown">
                                             <li><a href="TinTucCG.html">Tin Tức Công Giáo</a></li>
                                             <li><a href="SinhHoatGX.html">Sinh Hoạt Giáo Xứ</a></li>
@@ -87,7 +87,7 @@ const Header =
                                             <li><a href="KTG.html">Khối Truyền Giáo</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="ThuVien">Thư Viện</a>
+                                    <li><a href="Libraries">Thư Viện</a>
                                         <ul class="dropdown">
                                             <li><a href="ThongTinMV.html">Thông Tin Mục Vụ</a></li>
                                             <li><a href="CacBaiViet.html">Các Bài Viết</a></li>

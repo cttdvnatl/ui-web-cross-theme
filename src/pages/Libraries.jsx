@@ -1,15 +1,15 @@
 import React from 'react'
 import Preloader from '../components/Preloader.jsx'
-import ContactUs from '../components/ContactUs.jsx'
+import Library from '../components/Library.jsx'
 
 
-function Contact() {
+function Libraries() {
   return (
     <div>
       <Preloader/>
-      <ContactUs/>
+      <Library/>
     </div>
   );
 }
 
-export default Contact
+export default Libraries

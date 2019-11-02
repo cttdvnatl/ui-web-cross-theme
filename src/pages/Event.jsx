@@ -2,18 +2,18 @@ import React from 'react'
 import Preloader from '../components/Preloader.jsx'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
-import BanNganhs from '../components/BanNganhs.jsx'
+import Events from '../components/Events.jsx'
 
 
-function BanNganh() {
+function Event() {
   return (
     <div>
       <Preloader/>
       <Header/>
-      <BanNganhs/>
+      <Events/>
       <Footer/>
     </div>
   );
 }
 
-export default BanNganh
+export default Event

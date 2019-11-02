@@ -1,15 +1,15 @@
 import React from 'react'
 import Preloader from '../components/Preloader.jsx'
-import ContactUs from '../components/ContactUs.jsx'
+import Photo from '../components/Photo.jsx'
 
 
-function Contact() {
+function Photos() {
   return (
     <div>
       <Preloader/>
-      <ContactUs/>
+      <Photo/>
     </div>
   );
 }
 
-export default Contact
+export default Photos

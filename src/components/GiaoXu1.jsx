@@ -1,5 +1,5 @@
 import React from 'react'
-import __html from '../html/ThuVien.js'
+import __html from '../html/GiaoXu.js'
 
 class ThuVien extends React.Component {
   render() {

@@ -1,15 +1,16 @@
 import React from 'react'
 import Preloader from '../components/Preloader.jsx'
-import ContactUs from '../components/ContactUs.jsx'
+
+import GiaoXu1 from '../components/GiaoXu1.jsx'
 
 
-function Contact() {
+function GiaoXu() {
   return (
     <div>
       <Preloader/>
-      <ContactUs/>
+      <GiaoXu1/>
     </div>
   );
 }
 
-export default Contact
+export default GiaoXu

@@ -1,15 +1,16 @@
 import React from 'react'
 import Preloader from '../components/Preloader.jsx'
-import ContactUs from '../components/ContactUs.jsx'
+import TinTucs from '../components/TinTucs.jsx'
 
 
-function Contact() {
+function TinTuc() {
   return (
     <div>
       <Preloader/>
-      <ContactUs/>
+      <TinTucs/>
+
     </div>
   );
 }
 
-export default Contact
+export default TinTuc

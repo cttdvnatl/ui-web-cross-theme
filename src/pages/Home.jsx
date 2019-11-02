@@ -2,7 +2,7 @@ import React from 'react'
 import Preloader from '../components/Preloader.jsx'
 import Header from '../components/Header.jsx'
 import Slider from '../components/Slider.jsx'
-import About from '../components/About.jsx'
+import About from '../components/AboutUs.jsx'
 import UpcomingEvent from '../components/UpcomingEvent.jsx'
 import CallToAction from '../components/CallToAction.jsx'
 import Sermon from '../components/Sermon.jsx'
@@ -16,14 +16,12 @@ function Home() {
     <div>
       <Breadcrumb/>
       <Preloader/>
-      <Header/>
       <Slider/>
       <About/>
       <UpcomingEvent/>
       <CallToAction/>
       <Sermon/>
       <Gallery/>
-      <Footer/>
     </div>
   );
 }
