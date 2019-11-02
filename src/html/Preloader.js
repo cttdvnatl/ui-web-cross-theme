@@ -1,4 +1,4 @@
-const Preloader =
+ const Preloader =
 `
 <!-- ##### Preloader ##### -->
 <div class="preloader d-flex align-items-center justify-content-center">

@@ -1,0 +1,113 @@
+{
+    "banNganh": {
+        "header": {
+            "title": "Ban Nganh",
+            "sumary": "A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us."
+        },
+        "content":    
+            [
+                {
+                    "src": "img/bg-img/3.jpg",
+                    "title": "Ban Nganh",
+                    "sumary": "Giáo Xứ Các Thánh Tử Đạo Việ Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Việt cùng sống, cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và pháttriển truyền thống văn hóa Việt Nam."
+                },
+                {
+                    "src": "img/bg-img/4.jpg",
+                    "title":"Ban Nganh",
+                    "sumary":"1992: Thánh Lễ Tiếng VIệt đầu tiên tại giáo xứ Holy Cross. Lm.Tuyên úy Toma Nguyễn Thái Thành. Sơ Christine Trương Mỹ Hạnh."
+                },
+                {
+                    "src":"img/bg-img/5.jpg",
+                    "title":"Ban Nganh",
+                    "sumary":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+                }
+            ]
+    },
+    "about": {
+        "header":{
+            "title": "Holy Martyrs",
+            "sumary": "A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us."
+        },
+        "content": [
+            {
+                "src":"img/bg-img/3.jpg",
+                "title": "Sứ Mạng",
+                "sumary": "Giáo Xứ Các Thánh Tử Đạo Việ Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Việt cùng sống, cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và pháttriển truyền thống văn hóa Việt Nam."
+            },
+            {
+                "src":"img/bg-img/4.jpg",
+                "title":"Lịch Sử Giáo Xứ",
+                "sumary":"1992: Thánh Lễ Tiếng VIệt đầu tiên tại giáo xứ Holy Cross. Lm.Tuyên úy Toma Nguyễn Thái Thành. Sơ Christine Trương Mỹ Hạnh."
+            },
+            {
+                "src": "img/bg-img/5.jpg",
+                "title": "Xây Dựng Thánh Đường",
+                "sumary": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+            }
+        ]
+    },
+    "thuVien": {
+        "header": {
+            "title": "Thu Vien",
+            "sumary": "A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us."
+        },
+        "content": [
+            {
+                "src":"img/bg-img/3.jpg",
+                "title": "Thu Vient 1",
+                "sumary": "Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Việt cùng sống, cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và pháttriển truyền thống văn hóa Việt Nam."
+            },
+            {
+                "src":"img/bg-img/4.jpg",
+                "title": "Thu Vien 2",
+                "sumary": "1992: Thánh Lễ Tiếng VIệt đầu tiên tại giáo xứ Holy Cross. Lm.Tuyên úy Toma Nguyễn Thái Thành. Sơ Christine Trương Mỹ Hạnh."
+            },
+            {
+                "src":"img/bg-img/5.jpg",
+                "title": "Thu Vien 3",
+                "sumary":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+            }
+        ]
+    },
+    "sermon": {
+        "header": {
+            "title": "TÂM TÌNH MỤC TỬ",
+            "sumary": ">Loaded with fast-paced worship, activities, and video teachings to address real issues that students face each day"
+        },
+        "content": [
+            {
+                "src":"img/bg-img/7.jpg",
+                "date": {
+                    "day": "03",
+                    "month": "FEB"
+                },
+                "title": "MỪNG XUÂN KỶ HỢI 2019",
+                "author": "Lm Phanxico Trần Quốc Tuấn",
+                "category": "God, Pray",
+                "time": "9:00 am - 11:00 am"
+            },
+            {
+                "src":"img/bg-img/8.jpg",
+                "date": {
+                    "day": "10",
+                    "month": "FEB"
+                },
+                "title": "QUỸ HẰNG NĂM CỦA ĐỨC TỔNG GIÁM MỤC - AAA",
+                "author": "Lm Phanxico Trần Quốc Tuấn",
+                "category": "God, Pray",
+                "time": "9:00 am - 11:00 am"
+            },
+            {
+                "src":"img/bg-img/9.jpg",
+                "date": {
+                    "day": "17",
+                    "month": "FEB"
+                },
+                "title": "Mùa Chay 2019",
+                "author": "Lm Phanxico Trần Quốc Tuấn",
+                "category": "God, Pray",
+                "time": "9:00 am - 11:00 am"
+            }         
+        ]
+    }
+}

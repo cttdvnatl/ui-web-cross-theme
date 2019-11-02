@@ -4,8 +4,8 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/Home.jsx';
-import About from './pages/About.jsx';
+import HomePage from 'pages/HomePage/HomePage';
+import About from './pages/About/About';
 import Contact from './pages/Contact.jsx';
 import Libraries from './pages/Libraries.jsx';
 import BanNganhPages from './pages/BanNganhPages.jsx';
@@ -32,7 +32,6 @@ function App() {
       </div>
     </Router>
   );
-
 }
 
 export default App;
