@@ -22,13 +22,14 @@ function App() {
         	<Route path="/" render={(props) => <HomePage {...props} data = {Data}/>} exact />
         	<Route path="/about" render={(props) => <About {...props} data = {Data.about}/>} />
         	<Route path="/Contact" component={Contact} />
-        	<Route path="/ThuVien" component={ThuVien} />
+          <Route path="/Libraries" component={ThuVien} />
         	<Route path="/BanNganh" render={(props) => <BanNganh {...props} data = {Data.banNganh}/>} />
+          <Route path="/BanNganhs/:name" component={BanNganhPages} />
+          <Route path="/Event" component={Event} />
       	</div>
 	  	<Footer/>
     </Router>
   );
-
 }
 
 export default App;
