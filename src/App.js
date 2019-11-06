@@ -11,6 +11,7 @@ import ThuVien from './pages/ThuVien/ThuVien';
 import BanNganh from './pages/BanNganh/BanNganh';
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
+import DepartmentPages from 'pages/BanNganhPages';
 import Data from 'database/data.json';
 function App() {
   return (
@@ -22,10 +23,10 @@ function App() {
         	<Route path="/" render={(props) => <HomePage {...props} data = {Data}/>} exact />
         	<Route path="/about" render={(props) => <About {...props} data = {Data.about}/>} />
         	<Route path="/Contact" component={Contact} />
-          <Route path="/Libraries" component={ThuVien} />
+          	<Route path="/Libraries" component={ThuVien} />
         	<Route path="/BanNganh" render={(props) => <BanNganh {...props} data = {Data.banNganh}/>} />
-          <Route path="/BanNganhs/:name" component={BanNganhPages} />
-          <Route path="/Event" component={Event} />
+          	<Route path="/BanNganhs/:name" component={DepartmentPages} />
+          	<Route path="/Event" component={Event} />
       	</div>
 	  	<Footer/>
     </Router>

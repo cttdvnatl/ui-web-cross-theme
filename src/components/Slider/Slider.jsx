@@ -4,7 +4,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Slider.css';
 const slider = (prop) => {
-  console.log(prop.data);
     return (
         <Carousel fade={true}>
           {prop.data.map((slide, index) => {
@@ -16,7 +15,7 @@ const slider = (prop) => {
                   alt={`slide ${index}`}
                 />
                 <Carousel.Caption>
-                  <h3 data-animation="fadeInUp" data-delay="100ms">{slide.title}</h3>
+                  <h2 data-animation="fadeInUp" data-delay="100ms">{slide.title}</h2>
                   {slide.sumary.map((line, ind) => <p data-animation="fadeInUp" data-delay="400ms" key={ind}>{line}</p>)}
                   <a href="#" className="btn crose-btn" data-animation="fadeInUp" data-delay="500ms">{slide.button}</a>
                 </Carousel.Caption>
@@ -24,12 +23,7 @@ const slider = (prop) => {
             );
           })}
 </Carousel>
-
-
-
-
-
-
+/** Put here for reference. I'll delete all commented codes in the next PR */
         // <div>
         // {/* <!-- ##### Hero Area Start ##### --> */}
         // <section className="hero-area hero-post-slides owl-carousel">
