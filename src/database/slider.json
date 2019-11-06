@@ -1,0 +1,26 @@
+{
+    "slides": [
+        {
+            "src": "img/bg-img/Exterior1.jpg",
+            "title":"Ý Cầu Nguyện của Đức Thánh Cha tháng 2/2019",
+            "sumary":["Cầu xin cho mọi người có quảng đại đón tiếp những nạn nhân của việc buôn bán người,",
+                "của việc cưỡng bức mại dâm và của bạo động."],
+            "button": "About Us"
+        },
+        {
+            "src": "img/bg-img/interior2.jpg",
+            "title": "Giờ Lễ",
+            "sumary": [
+                "Thứ Hai - Thứ Bảy: 8:00",
+                "Thứ Năm - Thứ Sáu: 19:00",
+                "Thứ Bảy: Lễ Vọng Chủ Nhật 17:30",
+                "Chủ Nhật: 7:30 ; 9:30 ; 11:30 và 13:30",
+                "Giải Tội: Ngày thường: Sau thánh Lễ  8:00 - Thứ Bảy: 16:30 - 17:15",
+                "Rửa tội trẻ em:Lớp Giáo Lý: CN tuần thứ I 9:30 - 10:30 - Rửa Tội: Tuần II sau lễ 8:00",
+                "Xức dầu bệnh nhân:Hàng tháng sau Lễ CN thứ III",
+                "KHẨN CẤP: 770-910-2443"
+            ],
+            "button": "Contact Us"
+        }
+    ]
+}

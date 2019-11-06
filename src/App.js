@@ -1,4 +1,4 @@
-import React, {  } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -16,7 +16,8 @@ function App() {
   return (
     <Router>
 		<Header
-			time = {new Date().toLocaleTimeString('en-US', {hour12: true, hour: 'numeric', minute: 'numeric'})} />
+			time = {new Date().toLocaleTimeString('en-US', {hour12: true, hour: 'numeric', minute: 'numeric'})} 
+			/>
     	<div className="App">
         	<Route path="/" render={(props) => <HomePage {...props} data = {Data}/>} exact />
         	<Route path="/about" render={(props) => <About {...props} data = {Data.about}/>} />
