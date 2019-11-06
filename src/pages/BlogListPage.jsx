@@ -1,6 +1,6 @@
 import React from 'react';
-import blogContent from '../database/blog-content';
-import BlogList from '../components/BlogList';
+import blogContent from 'database/blog-content';
+import BlogList from 'components/BlogList';
 
 
 const BlogListPage = () => (

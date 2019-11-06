@@ -1,6 +1,6 @@
-import React from 'react'
-import Preloader from '../components/Preloader.jsx'
-import TinTucs from '../components/TinTucs.jsx'
+import React from 'react';
+import Preloader from 'components/Preloader/Preloader';
+import TinTucs from 'components/TinTucs';
 
 
 function TinTuc() {

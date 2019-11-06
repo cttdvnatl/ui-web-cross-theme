@@ -1,35 +1,38 @@
-import React, {  } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
 import './App.css';
 import HomePage from 'pages/HomePage/HomePage';
-import About from './pages/About/About';
-import Contact from './pages/Contact.jsx';
-import Libraries from './pages/Libraries.jsx';
-import BanNganhPages from './pages/BanNganhPages.jsx';
-import BlogPage from './pages/BlogPage';
-import BlogListPage from './pages/BlogListPage';
-import Event from './pages/Event.jsx';
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx'
-
+import About from 'pages/About/About';
+import Contact from 'pages/Contact.jsx';
+import Library from 'pages/Library/Library';
+import Department from 'pages/Department/Department';
+import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
+import DepartmentPages from 'pages/DepartmentPages';
+import Data from 'database/data.json';
+import BlogPage from 'pages/BlogPage';
+import BlogListPage from 'pages/BlogListPage';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header/>
-        <Route path="/" component={HomePage} exact />
-        <Route path="/about" component={About} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/Libraries" component={Libraries} />
-        <Route path="/BanNganhs/:name" component={BanNganhPages} />
-        <Route path="/blog-list/:id" component={BlogPage} exact />
-        <Route path="/blog-list" component={BlogListPage} exact />
-        <Route path="/Event" component={Event} />
-        <Footer/>    
-      </div>
+		<Header
+			time = {new Date().toLocaleTimeString('en-US', {hour12: true, hour: 'numeric', minute: 'numeric'})} 
+			/>
+    	<div className="App">
+        	<Route path="/" render={(props) => <HomePage {...props} data = {Data}/>} exact />
+        	<Route path="/about" render={(props) => <About {...props} data = {Data.about}/>} />
+        	<Route path="/contact" component={Contact} />
+          	<Route path="/libraries" render={(props) => <Library {...props} data = {Data.library}/>} />
+        	<Route path="/departments" render={(props) => <Department {...props} data = {Data.department}/>} />
+          	<Route path="/departments/:name" component={DepartmentPages} exact/>
+          	<Route path="/event" component={Event} />
+			<Route path="/blog-list/:id" component={BlogPage} exact />
+        	<Route path="/blog-list" component={BlogListPage} exact />
+      	</div>
+	  	<Footer/>
     </Router>
   );
 }

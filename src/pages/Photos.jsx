@@ -1,6 +1,6 @@
-import React from 'react'
-import Preloader from '../components/Preloader.jsx'
-import Photo from '../components/Photo.jsx'
+import React from 'react';
+import Preloader from 'components/Preloader/Preloader';
+import Photo from 'components/Photo.jsx';
 
 
 function Photos() {

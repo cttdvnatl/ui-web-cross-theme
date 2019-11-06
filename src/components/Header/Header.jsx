@@ -1,7 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-const header = (prop) => {
+// import axios from 'axios';
+const Header = (prop) => {
+    // const [getTemp, setTemp] = useState(() => navigator.geolocation.getCurrentPosition(async(pos) => {
+	// 	const res = await axios({
+	// 		url:"https://api.openweathermap.org/data/2.5/weather",
+	// 		method: 'get',
+	// 		params: {
+	// 			lat: pos.coords.latitude,
+	// 			lon: pos.coords.longitude,
+    //             appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
+    //             units:'imperial'
+	// 		},
+    //     });
+    //     return res.data.main.temp;
+    // }));
     return (
         // <!-- ##### Header Area Start ##### -->
         <header className= "header-area">
@@ -14,7 +28,7 @@ const header = (prop) => {
                             <div className="top-header-content d-flex flex-wrap align-items-center justify-content-between">
                                 {/* <!-- Top Header Meta --> */}
                                 <div className="top-header-meta d-flex flex-wrap">
-                                    <p><a href="/" className="open" data-toggle="tooltip" data-placement="bottom" title= {prop.time}><i className="fa fa-clock-o" aria-hidden="true"></i> <span>Time: {prop.time}</span> </a>Temperature: 67F                             </p>
+                                    <p><a href="/" className="open" data-toggle="tooltip" data-placement="bottom" title= {prop.time}><i className="fa fa-clock-o" aria-hidden="true"></i> <span>Time: {prop.time}</span> </a>Temperature: 30 F</p>
                                     <div className="top-social-info">
                                         <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
                                         <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
@@ -139,4 +153,4 @@ const header = (prop) => {
     );
 };
 
-export default header;
+export default Header;

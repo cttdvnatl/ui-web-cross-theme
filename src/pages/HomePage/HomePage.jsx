@@ -7,12 +7,13 @@ import UpcomingEvent from 'components/UpcomingEvent';
 import CallToAction from 'components/CallToAction';
 import Sermon from 'components/Sermon/Sermon';
 import Gallery from 'components/Gallery';
+import sliderData from 'database/slider.json';
 const homepage = (prop) => {
     return (
         <div>
             <Breadcrumb/>
             <Preloader/>
-            <Slider/>
+            <Slider data={sliderData.slides}/>
             <About data={prop.data.about}/>
             <UpcomingEvent/>
             <CallToAction/>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import blogContent from '../database/blog-content';
+import blogContent from 'database/blog-content';
 
 const BlogPage = ({match}) => {
     const id = match.params.id;
