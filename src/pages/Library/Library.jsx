@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PreLoader from 'components/Preloader/Preloader';
-const thuVien = (prop) => {
+const Library = (prop) => {
     return (
         <div>
             <PreLoader/>
@@ -42,4 +42,4 @@ const thuVien = (prop) => {
     );
 };
 
-export default thuVien;
+export default Library;
