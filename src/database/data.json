@@ -1,5 +1,5 @@
 {
-    "banNganh": {
+    "department": {
         "header": {
             "title": "Ban Nganh",
             "sumary": "A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us."
@@ -46,7 +46,7 @@
             }
         ]
     },
-    "thuVien": {
+    "library": {
         "header": {
             "title": "Thu Vien",
             "sumary": "A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us."

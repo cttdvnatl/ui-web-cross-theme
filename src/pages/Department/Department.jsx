@@ -2,7 +2,7 @@
 import React from 'react';
 import Preloader from 'components/Preloader/Preloader';
 
-const banNganh = (prop) => {
+const Department = (prop) => {
     return (
         <div>
             <Preloader/>
@@ -42,4 +42,4 @@ const banNganh = (prop) => {
     );
 };
 
-export default banNganh;
+export default Department;

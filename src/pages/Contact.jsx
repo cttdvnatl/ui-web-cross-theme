@@ -1,6 +1,6 @@
 import React from 'react'
-import Preloader from '../components/Preloader/Preloader'
-import ContactUs from '../components/ContactUs/ContactUs'
+import Preloader from 'components/Preloader/Preloader'
+import ContactUs from 'components/ContactUs/ContactUs'
 
 
 function Contact() {

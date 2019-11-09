@@ -1,12 +1,12 @@
-import React from 'react'
-import Preloader from '../components/Preloader.jsx'
-import Slider from '../components/Slider.jsx'
-import About from '../components/AboutUs.jsx'
-import UpcomingEvent from '../components/UpcomingEvent.jsx'
-import CallToAction from '../components/CallToAction.jsx'
-import Sermon from '../components/Sermon.jsx'
-import Gallery from '../components/Gallery.jsx'
-import Breadcrumb from '../components/Breadcrumb.jsx'
+import React from 'react';
+import Preloader from 'components/Preloader/Preloader';
+import Slider from 'components/Slider/Slider';
+import About from 'components/About/About';
+import UpcomingEvent from 'components/UpcomingEvent';
+import CallToAction from 'components/CallToAction';
+import Sermon from 'components/Sermon/Sermon';
+import Gallery from 'components/Gallery';
+import Breadcrumb from 'components/Breadcrumb/Breadcrumb';
 
 
 function Home() {
